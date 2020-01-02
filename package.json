@@ -1,0 +1,21 @@
+{
+  "name": "fib-checker",
+  "version": "1.0.0",
+  "description": "Check to see if a number is in the Fibonacci sequence",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Mike Mathew (@m2mathew)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.5.0",
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "jest": "^24.8.0"
+  }
+}
